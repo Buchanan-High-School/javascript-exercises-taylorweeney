@@ -2,9 +2,8 @@
 function task1() {
   console.log("Running task 1");
   // Don't change the variable name
-  let listItems = // Set your selector here. ;
+  let listItems = document.querySelectorAll("li")
 
-  // This is called a conditional. If it finds matches
   // for your variable, it will tell each of them to 
   // respond to a hover ("mouseover") event.
   if (listItems.length > 1) {
