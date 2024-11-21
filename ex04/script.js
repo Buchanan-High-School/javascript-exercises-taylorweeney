@@ -18,11 +18,17 @@ function task2A() {
 
 function task2B() {
   
-  let target = document.querySelector("#tsak2")
-  // Write your code in here
-  let newEl = document.createElement("ul")
-  newEl.innerText("yuh")
-  target.appendChild(newEl)
+  let target = document.querySelector("#task2")
+let names = document.querySelectorAll("#name-list li")
+console.log(names)
+
+names.forEach(name => {
+console.log(name)
+let newEl = document.createElement("p")
+newEl.innerText = "yehaw" + name.innerText;
+target.appendChild(newEl)
+})
+
 }
 
 function task3() {
