@@ -32,5 +32,11 @@ target.appendChild(newEl)
 }
 
 function task3() {
+  let items = document.querySelectorAll(".item p")
+
+  items.forEach(item => {
+    item.style.backgroundColor = "#"+ item.innerText
+    console.log(item) 
+  })
   // Write your code in here
 }
