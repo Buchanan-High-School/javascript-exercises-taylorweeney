@@ -16,11 +16,19 @@ function task1() {
 // Write your task 2 code inside this function!
 function task2() {
   console.log("Running task 2");
+  let element = document.querySelector("#circle")
+  element.remove("#circle")
 }
 
 // Write your task 3 code inside this function!
 function task3() {
   console.log("Running task 3");
+  let parent = document.querySelector(".box.flex")
+  let firstEl = document.querySelector("#item1")
+
+  let newNode = document.createElement("p")
+  newNode.textContent = "this is a new element"
+  parent.insertBefore(newNode, firstEl)
 }
 
 // Don't change this function
