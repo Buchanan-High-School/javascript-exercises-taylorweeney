@@ -28,6 +28,13 @@ const teachers = [
 ]
 
 function task1() {
+    let food = {
+        "type": "donut",
+        "taste": "sweet",
+        "look": "delicious",
+        "texture": "soft",
+    }
+    console.log(food)
     // Create your own object assigned to a variable.
     // console.log your object when this function is run.
 }
